@@ -1,0 +1,16 @@
+h6 {
+    color: #5f99ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.skill-set {
+    margin: 4rem 0 9rem 0;
+}
