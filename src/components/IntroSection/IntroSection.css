@@ -25,6 +25,7 @@ p{
     text-align: justify;
 }
 
-scrollBtn {
-
+.scrollBtn {
+    border-radius: 16px;
+    padding: 6px 18px
 }

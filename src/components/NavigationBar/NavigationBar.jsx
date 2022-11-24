@@ -13,19 +13,17 @@ function NavigationBar() {
           <img
               src={oaLogo}
               width="40"
-              height=" 40"
-              className="d-inline-block align-top"
+              height="40"
               alt="OA Logo"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#coding">Coding</Nav.Link>
-            <Nav.Link href="#graphics">Graphics</Nav.Link>
-            <Nav.Link href="#resume">Resume</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#skills">Skills</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#career">Career</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

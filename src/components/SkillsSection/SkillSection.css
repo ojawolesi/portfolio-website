@@ -12,5 +12,9 @@ h2 {
 }
 
 .skill-set {
-    margin: 4rem 0 9rem 0;
+    margin: 8rem 0 9rem 0;
+}
+
+.skill-p {
+    margin-top: 4rem;
 }

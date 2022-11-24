@@ -1,0 +1,129 @@
+.card-container {
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+}
+
+
+.card-container .glassmorphic-card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    width: 100%;
+    height: 500px;
+    padding: 40px 30px;
+    margin: 28px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+}
+
+.card-container .glassmorphic-card:before {
+    content: '';
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-size: 10em;
+    background: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+}
+
+.card-container .glassmorphic-card .contentBox {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.card-container .glassmorphic-card .contentBox:before {
+    position: absolute;
+    top: -50px;
+    left: -125px;
+    width: 100%;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transform: rotate(-90deg);
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.card-container .glassmorphic-card .contentBox h3 {
+    font-size: 1.1em;
+    color: #fff;
+    z-index: 0;
+}
+
+.card-container .glassmorphic-card .contentBox p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.languages-text {
+    color: white;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.language-box {
+    margin: auto;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-btn {
+    border-radius: 16px;
+    margin: 12px 6px;
+}
+
+.btn-box {
+    margin: 2px;
+}
+
+.card-container .glassmorphic-card .contentBox a {
+    text-align: center;
+}
+
+/*.card-container .glassmorphic-card .contentBox a {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    padding: 8px 20px;*/
+/*    margin-top: 15px;*/
+/*    background: #fff;*/
+/*    border-top: 1px solid rgba(255, 255, 255, 0.1);*/
+/*    border-left: 1px solid rgba(255, 255, 255, 0.1);*/
+/*    color: #000;*/
+/*    border-radius: 20px;*/
+/*    text-decoration: none;*/
+/*    font-weight: 500;*/
+/*    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);*/
+/*}*/
+
+.card-container p {
+    z-index: 12;
+    margin: 20px auto 10px;
+    position: relative;
+    color: #fff;
+}
+
+.card-container p span {
+    font-weight: 700;
+}
