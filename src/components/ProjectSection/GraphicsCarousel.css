@@ -25,13 +25,19 @@
     opacity: 0;
     color: black;
     position: absolute;
-    top: 50%;
     transform: translateY(50%);
+}
+
+.card-img-overlay h2 {
+    display: flex;
+    position: absolute;
+    transform: translateY(50%);
+    top: 25%;
 }
 
 .card:hover .card-img-overlay {
     opacity: 1;
-    background: rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(0deg, #000, rgba(0, 0, 0, 0.8) 59%, transparent);
     transition: opacity 0.2s ease-in-out;
 }
 

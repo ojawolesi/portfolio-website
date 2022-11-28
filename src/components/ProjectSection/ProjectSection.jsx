@@ -80,6 +80,7 @@ function ProjectSection({ username, length, specfic }) {
         <h6 style={{ position: "absolute" }}>GRAPHIC DESIGN PORTFOLIO</h6>
         <GraphicsCarousel />
       </Container>
+      <hr style={{ marginTop: "5rem" }} />
     </div>
   );
 }

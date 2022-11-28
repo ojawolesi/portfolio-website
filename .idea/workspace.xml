@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bac22515-d79a-4581-8194-0685e17c7e8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/carouselImgs/carouselImg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectSection/GraphicsCarousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectSection/GraphicsCarousel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CareerSection/CareerSection.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CareerSection/CareerSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectSection/GraphicsCarousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectSection/GraphicsCarousel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProjectSection/ProjectSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectSection/ProjectSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,27 +38,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "530008",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "code.cleanup.on.save": "true",
-    "last_opened_file_path": "/Users/olasubomiawolesi/Downloads/portfolio-website/src/components/ProjectSection",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/usr/local/lib/node_modules/prettier",
-    "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;530008&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/olasubomiawolesi/Downloads/portfolio-website/src/components/ProjectSection&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/usr/local/lib/node_modules/prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/ProjectSection" />
@@ -80,6 +84,8 @@
       <workItem from="1668221798024" duration="95000" />
       <workItem from="1668461179829" duration="461000" />
       <workItem from="1669143002427" duration="49410000" />
+      <workItem from="1669638438269" duration="5143000" />
+      <workItem from="1669664771021" duration="5317000" />
     </task>
     <servers />
   </component>

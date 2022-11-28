@@ -1,0 +1,26 @@
+/*.career-row {*/
+/*    margin: auto;*/
+/*}*/
+.career-row h5 {
+    display: inline;
+    color: white;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.career-row .career-role {
+    color: white;
+    margin-left: 1rem;
+}
+
+.career-row .career-date {
+    margin-left: 1rem;
+}
+
+.career-cv-btn {
+    border-radius: 16px;
+    padding: 6px 18px;
+    margin-top: 1rem;
+    margin-right: 4rem;
+    float: right;
+}
