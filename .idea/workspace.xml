@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bac22515-d79a-4581-8194-0685e17c7e8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectSection/ProjectCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectSection/ProjectCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectSection/ProjectSection.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectSection/ProjectSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/carouselImgs/carouselImg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProjectSection/GraphicsCarousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProjectSection/GraphicsCarousel.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IntroSection/IntroSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IntroSection/IntroSection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IntroSection/IntroSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IntroSection/IntroSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar/NavigationBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationBar/NavigationBar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavigationBar/NavigationBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigationBar/NavigationBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SkillsSection/SkillSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkillsSection/SkillSection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SkillsSection/SkillSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkillsSection/SkillSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectSection/ProjectSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectSection/ProjectSection.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "code.cleanup.on.save": "true",
+    "last_opened_file_path": "/Users/olasubomiawolesi/Downloads/portfolio-website/src/components/ProjectSection",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -67,7 +56,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/ProjectSection" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images/carouselImgs" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components/NavigationBar" />
       <recent name="$PROJECT_DIR$/src" />
@@ -86,7 +79,7 @@
       <workItem from="1667398751125" duration="31975000" />
       <workItem from="1668221798024" duration="95000" />
       <workItem from="1668461179829" duration="461000" />
-      <workItem from="1669143002427" duration="32350000" />
+      <workItem from="1669143002427" duration="49410000" />
     </task>
     <servers />
   </component>

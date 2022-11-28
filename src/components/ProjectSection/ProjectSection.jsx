@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCard";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import axios from "axios";
+import GraphicsCarousel from "./GraphicsCarousel";
 
 const emptyProject = {
   name: null,
@@ -58,7 +59,8 @@ function ProjectSection({ username, length, specfic }) {
           Projects
           <span style={{ color: "#5f99ff" }}>+</span>
         </h1>
-        <Row>
+        <h6>GITHUB REPOSITORIES</h6>
+        <Row style={{ marginBottom: "1.5rem" }}>
           {projectsArray.length
             ? projectsArray.map((project, index) => (
                 <ProjectCard
@@ -75,6 +77,8 @@ function ProjectSection({ username, length, specfic }) {
                 />
               ))}
         </Row>
+        <h6 style={{ position: "absolute" }}>GRAPHIC DESIGN PORTFOLIO</h6>
+        <GraphicsCarousel />
       </Container>
     </div>
   );
