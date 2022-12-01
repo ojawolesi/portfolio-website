@@ -11,9 +11,9 @@ const repos = {
 const career = [
   {
     id: 1,
-    company: "Theodo",
-    role: "Agile Software Developer",
-    date: "Feb 2023 - Present",
+    company: "-",
+    role: "-",
+    date: "-",
   },
   {
     id: 2,
