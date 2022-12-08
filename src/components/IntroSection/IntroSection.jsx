@@ -6,9 +6,9 @@ import Col from "react-bootstrap/Col";
 import portraitImg from "../../assets/images/studio-portrait-1.jpg";
 import { Button } from "react-bootstrap";
 
-function IntroSection() {
+function IntroSection({ isSmallScreen }) {
   return (
-    <div>
+    <div style={{ padding: "none", margin: "none" }}>
       <Container className="mx-auto">
         <Row>
           <Col xs lg="5">

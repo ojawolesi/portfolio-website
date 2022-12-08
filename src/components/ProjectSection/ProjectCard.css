@@ -53,7 +53,7 @@
 .card-container .glassmorphic-card .contentBox:before {
     position: absolute;
     top: -50px;
-    left: -125px;
+    /*left: -125px;*/
     width: 100%;
     font-size: 4em;
     text-transform: uppercase;
