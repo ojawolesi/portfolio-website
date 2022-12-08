@@ -1,13 +1,11 @@
-.bg-custom-1 {
-    background-image: linear-gradient(180deg, #000, rgba(0, 0, 0, 0.8) 59%, transparent)
-}
-
-.sticky-nav {
+.navbar {
+    background-image: linear-gradient(180deg, #000, rgba(0, 0, 0, 0.8) 59%, transparent);
+    padding: 1.5rem 0 1.5rem;
     position: sticky;
     top: 0;
     z-index: 100;
-}
 
+}
 
 @media (min-width: 1200px) {
     .container {
@@ -15,8 +13,65 @@
     }
 }
 
-.navbar {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: opacity 0.15s ease;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center !important;
+    }
 
+    .navbar-collapse collapse {
+        opacity: 0;
+        display: flex;
+        pointer-events: none;
+    }
+
+
+    .navbar-collapse collapsing[style*="height"] {
+        opacity: 1;
+        height: 100vh !important;
+    }
+
+    .navbar-collapse collapsing {
+        opacity: 0;
+        height: 100vh;
+    }
+
+    .navbar-collapse collapse .show {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .navbar-collapse .navbar-nav {
+
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .ms-auto {
+        font-weight: 700;
+    }
+
+    .nav-link {
+        padding: 1rem 0;
+    }
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-toggler, .navbar-toggler:focus {
+    z-index: 10;
+    border: none;
+    box-shadow: none;
 }
