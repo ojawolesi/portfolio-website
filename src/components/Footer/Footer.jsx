@@ -12,7 +12,7 @@ function Footer() {
           <a href="https://www.linkedin.com/in/olasubomi-awolesi/">
             <i className="fab fa-linkedin fa-lg"></i>
           </a>
-          <a href="https://www.behance.net/olasuboawolesi">
+          <a href="https://www.behance.net/olasubomiawolesi">
             <i className="fab fa-behance fa-lg"></i>
           </a>
           <a href="mailto:j.awolesi99@gmail.com">
