@@ -6,10 +6,10 @@
     margin-top: 1rem;
 }
 
-.social-icon {
+.social-box i, .coding-box i {
     margin: 20px 20px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
 }
 
 .social-box i {

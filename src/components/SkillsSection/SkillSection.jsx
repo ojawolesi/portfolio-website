@@ -4,9 +4,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-function SkillSection() {
+function SkillSection({ isSmallScreen }) {
   return (
-    <div id="skills">
+    <div id="skills" className={`${isSmallScreen && "m-heading-box"}`}>
       <Container className="mx-auto">
         <Row>
           <Col xs lg="5">

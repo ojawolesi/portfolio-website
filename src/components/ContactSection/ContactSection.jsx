@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 
 function ContactSection() {
   return (
-    <div id="contact" style={{ margin: "6rem 0 3rem" }}>
+    <div id="contact">
       <Container className="mx-auto">
         <div style={{ textAlign: "center" }}>
           <h6

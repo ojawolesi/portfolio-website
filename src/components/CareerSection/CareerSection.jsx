@@ -5,21 +5,29 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Button } from "react-bootstrap";
 
-function CareerSection(props) {
+function CareerSection({ isSmallScreen, career }) {
   return (
-    <div id="career">
+    <div id="career" className="career-box">
       <Container className="mx-auto">
-        <a href="https://www.icloud.com/iclouddrive/081dZpoAmaq_YgLnXCZP5ePvQ#website-portfolio-CV">
-          <Button className="career-cv-btn">Download CV</Button>
-        </a>
-        <h1 style={{ margin: "6rem 0 3rem" }}>
-          Career
-          <span style={{ color: "#5f99ff" }}>+</span>
-        </h1>
-
+        <div
+          className={`${
+            isSmallScreen ? "m-career-heading-box" : "career-heading-box"
+          }`}
+        >
+          <h1>
+            Career
+            <span style={{ color: "#5f99ff" }}>+</span>
+          </h1>
+          <a
+            className="career-cv-btn"
+            href="https://www.icloud.com/iclouddrive/081dZpoAmaq_YgLnXCZP5ePvQ#website-portfolio-CV"
+          >
+            <Button>Download CV</Button>
+          </a>
+        </div>
         <Container>
-          <Row className="career-row">
-            {props.career.map((career, index) => (
+          <Row className={`${isSmallScreen && "m-career-row"} career-row`}>
+            {career.map((career, index) => (
               <Col key={`career-col-${index}`}>
                 <div key={career.id}>
                   <div className="flex items-center">

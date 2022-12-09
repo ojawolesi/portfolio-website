@@ -58,3 +58,7 @@
 .carousel-control-next {
     margin-right: -10rem;
 }
+
+.m-carousel-box .card:hover .card-img-overlay {
+    display: none;
+}

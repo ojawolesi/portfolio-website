@@ -12,13 +12,20 @@ function IntroSection({ isSmallScreen }) {
     <div style={{ padding: "none", margin: "none" }} id="intro">
       <Container className="mx-auto">
         <Row>
-          <Col xs lg="5">
+          <Col xs lg={5}>
             <div className={`${isSmallScreen && "m-heading-box"} heading-box`}>
               <h3>Hello, it's me</h3>
               <h1>
                 Olasubomi
                 <span style={{ color: "#5f99ff" }}>.</span>
               </h1>
+
+              <p>
+                An enthusiastic and proactive technologist, passionate about all
+                things design. Currently looking for an innovative environment
+                with a positive culture to develop and grow as a full-stack
+                software engineer.
+              </p>
               <div className={"typist"}>
                 <Typewriter
                   options={{
@@ -33,42 +40,29 @@ function IntroSection({ isSmallScreen }) {
                   }}
                 />
               </div>
-              <p>
-                An enthusiastic and proactive technologist, passionate about all
-                things design. Currently looking for an innovative environment
-                with a positive culture to develop and grow as a full-stack
-                software engineer.
-              </p>
               {!isSmallScreen && (
                 <Button className="scrollBtn">Scroll for more</Button>
               )}
             </div>
           </Col>
-          <Col lg={5} className={`${isSmallScreen && "absol"}`}>
+          <Col lg={5} md={1} className={`${isSmallScreen && "profile-box"}`}>
             {isSmallScreen ? (
               <div className="m-profile-box">
                 {isSmallScreen ? (
-                  <img src={portraitImg} alt="" className="m-profile-boxer" />
+                  <img src={portraitImg} alt="" className="m-profile-box-img" />
                 ) : (
                   <img src={portraitImg} alt="" width="500" />
                 )}
               </div>
             ) : (
-              <div
-                className="mx-auto md:w-1/2"
-                data-aos="zoom-in"
-                data-aos-duration="2000"
-              >
+              <div>
                 {isSmallScreen ? (
-                  <img src={portraitImg} alt="" className="" />
+                  <img src={portraitImg} alt="" className="m-profile-box-img" />
                 ) : (
                   <img src={portraitImg} alt="" width="500" />
                 )}
               </div>
             )}
-            {/*<div>*/}
-            {/*  <img src={portraitImg} alt="" width="535" />*/}
-            {/*</div>*/}
           </Col>
         </Row>
       </Container>

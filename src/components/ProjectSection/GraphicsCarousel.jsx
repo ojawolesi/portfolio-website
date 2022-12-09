@@ -10,9 +10,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Card, CardImg, Carousel } from "react-bootstrap";
 
-function GraphicsCarousel() {
+function GraphicsCarousel({ isSmallScreen }) {
   return (
-    <div>
+    <div className={`${isSmallScreen && "m-carousel-box"}`}>
       <Carousel interval={null}>
         <Carousel.Item>
           <Row>

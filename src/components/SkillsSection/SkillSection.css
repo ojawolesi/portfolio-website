@@ -19,3 +19,7 @@ h2 {
 .skill-p {
     margin-top: 4rem;
 }
+
+.m-heading-box .skill-set {
+    margin-bottom: 0;
+}

@@ -15,7 +15,7 @@ const emptyProject = {
 };
 const gitHubAPI = "https://api.github.com";
 
-function ProjectSection({ username, length, specfic }) {
+function ProjectSection({ isSmallScreen, username, length, specfic }) {
   const allReposAPI = `${gitHubAPI}/users/${username}/repos?sort=updated&direction=desc`;
   const specficReposAPI = `${gitHubAPI}/repos/${username}`;
   const emptyProjectArr = new Array(length + specfic.length).fill(emptyProject);
@@ -52,8 +52,8 @@ function ProjectSection({ username, length, specfic }) {
 
   return (
     <div id="projects">
-      <Container className="mx-auto">
-        <h1 style={{ margin: "3rem 0 3rem" }}>
+      <Container className="mx-auto project-box">
+        <h1>
           Recent
           <br />
           Projects
@@ -77,8 +77,8 @@ function ProjectSection({ username, length, specfic }) {
                 />
               ))}
         </Row>
-        <h6 style={{ position: "absolute" }}>GRAPHIC DESIGN PORTFOLIO</h6>
-        <GraphicsCarousel />
+        <h6>GRAPHIC DESIGN PORTFOLIO</h6>
+        <GraphicsCarousel isSmallScreen={isSmallScreen} />
       </Container>
       <hr style={{ marginTop: "5rem" }} />
     </div>
