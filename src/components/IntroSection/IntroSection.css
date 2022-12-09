@@ -6,7 +6,6 @@ h1, h3 {
 h1 {
     font-size: 4.25rem;
     line-height: 1;
-    margin-top: 1rem;
 }
 
 h3 {
@@ -22,12 +21,25 @@ p {
 }
 
 .m-heading-box {
-    margin: 0 2.5rem;
+    text-align: center;
+    margin-right: auto;
+}
+
+.m-heading-box h1 {
+    font-size: 3.75rem;
     text-align: center;
 }
 
 .heading-box {
     margin-top: 12rem;
+}
+
+.m-profile-box {
+    margin: 3rem auto auto;
+}
+
+.m-profile-boxer {
+    width: 100%;
 }
 
 .scrollBtn {
@@ -44,4 +56,10 @@ p {
     line-height: 1em;
     letter-spacing: -0.7px;
     margin-bottom: 7rem;
+}
+
+.absol {
+    position: absolute;
+    z-index: -200;
+    width: auto;
 }

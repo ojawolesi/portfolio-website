@@ -9,7 +9,7 @@ import portraitImg from "../../assets/images/studio-portrait-1.jpg";
 
 function IntroSection({ isSmallScreen }) {
   return (
-    <div style={{ padding: "none", margin: "none" }}>
+    <div style={{ padding: "none", margin: "none" }} id="intro">
       <Container className="mx-auto">
         <Row>
           <Col xs lg="5">
@@ -44,11 +44,11 @@ function IntroSection({ isSmallScreen }) {
               )}
             </div>
           </Col>
-          <Col lg={5}>
+          <Col lg={5} className={`${isSmallScreen && "absol"}`}>
             {isSmallScreen ? (
-              <div className="mx-auto md:w-1/2">
+              <div className="m-profile-box">
                 {isSmallScreen ? (
-                  <img src={portraitImg} alt="" className="" />
+                  <img src={portraitImg} alt="" className="m-profile-boxer" />
                 ) : (
                   <img src={portraitImg} alt="" width="500" />
                 )}
